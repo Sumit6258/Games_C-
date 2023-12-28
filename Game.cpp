@@ -20,3 +20,9 @@ void Game::update(sf::Time deltaTime) {
     // Update game logic here
 }
 
+void Game::render() {
+    window.clear();
+    window.draw(player);
+    window.display();
+}
+
