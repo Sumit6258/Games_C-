@@ -15,3 +15,8 @@ void Game::run() {
 void Game::processEvents() {
     // Handle events
 }
+
+void Game::update(sf::Time deltaTime) {
+    // Update game logic here
+}
+
