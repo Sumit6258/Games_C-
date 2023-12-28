@@ -11,3 +11,7 @@ void Game::run() {
         render();
     }
 }
+
+void Game::processEvents() {
+    // Handle events
+}
